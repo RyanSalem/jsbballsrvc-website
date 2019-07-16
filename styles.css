@@ -110,10 +110,11 @@ body {
 .two-column-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-items: center;
 }
 
 .profile-image-wrapper img {
-    width: 50%;
+    width: 100%;
 }
 
 .profile-content-wrapper {
