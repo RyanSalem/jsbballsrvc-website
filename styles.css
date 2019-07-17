@@ -54,6 +54,26 @@ body {
     color: black !important;
 }
 
+/* Cover Shit */
+.content-wrapper {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 10px;
+}
+
+.cover-wrapper {
+    position: relative;
+}
+
+.cover-img-background {
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
 /* Portfolio Styles */
 .portfolio-items-wrapper {
     display: grid;
